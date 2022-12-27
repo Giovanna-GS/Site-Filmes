@@ -21,6 +21,7 @@ header .container{
     background-color: transparent;
     align-items: center;
     background: transparent;
+    position: absolute;
     
 }
 
@@ -100,6 +101,9 @@ header nav a:hover{
 .container{
     margin-left: 20px;
 }
+.recomendados{
+    margin: 20px;
+}
 
 .filme-principal .container{
     width: 60%;
@@ -113,10 +117,13 @@ header nav a:hover{
 .carrossel-filmes{
     margin-top: 5px;
 }
+.item{
+    margin-right: 40px;
+}
 
 .item:hover{
-    width: 110%;
-    position: relative;
+    width: 260px;
+    position: absolute;
 }
 
 
