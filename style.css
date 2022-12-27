@@ -1,0 +1,123 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family:  'Nanum Gothic', sans-serif;
+    color: white;
+    
+
+}
+
+header .container{
+    display: inline-flex;
+    background-color: transparent;
+    align-items: center;
+    background: transparent;
+    
+}
+
+header .logo{
+    margin: 10px 0 5px 10px;
+    color: var(--vermelho);
+    font-family: 'arial black''Times New Roman', Times, serif;
+    font-size: 40px;
+}
+header nav{
+    margin-left: 50px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+
+header nav a:hover{
+    color: #C4C4CC;
+
+}
+.perfil img{
+    width: 40px;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size:16px ;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,50)100%), url("https://www.themoviedb.org/t/p/original/uhYpkLSnlOXTQDmNnu1X4MHMt1S.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+   
+}
+
+
+.titulo{
+    margin-top: 30%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.carrossel-filmes{
+    margin-top: 5px;
+}
+
+.item:hover{
+    width: 110%;
+    position: relative;
+}
+
+
+
